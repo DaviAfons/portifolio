@@ -1,0 +1,173 @@
+/* Reset básico */
+
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Times New Roman', sans-serif;
+
+    background-color: rgb(216, 196, 131);
+
+    background: black;
+}
+
+header {
+    background: #666254;
+
+    color: #fff;
+    
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    color: #c7b482;
+
+    font-size: x-large;
+    
+}
+
+.Logo {
+    float: left;
+    
+    width: 250px;
+
+}
+
+nav {
+    transition: transform 0.3s ease-in-out;
+}
+
+nav:hover {
+    transform: translateY(-10px);
+}
+
+nav {
+    float : right;
+
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline;
+
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #dbcfb1;
+
+    text-decoration: none;
+
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background: #575757;
+
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('../Logo\ Davi\ Inc..png') no-repeat center center/cover;
+
+    color: #c7b482;
+
+    text-align: center;
+
+    padding: 100px 0;
+
+    
+}
+
+.hero-content {
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    font-size: large;
+
+   
+}
+
+.cta-button {
+    display: inline-block;
+
+    background: #d2af64;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+}
+
+.cta-button:hover {
+       background: #b6b49a
+
+}
+
+.features {
+    padding: 20px 0;
+
+}
+
+.features {
+    background: #000000;
+
+    border-radius: 8px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+
+    padding: 15px;
+
+    margin-bottom: 20px;
+
+    font-size: larger;
+
+    
+}
+
+.feature img {
+    max-width: 25%;
+
+    height: auto;
+
+    border-radius: 5px;
+    
+}
+
+footer {
+    background: #666254;
+
+    color: #c7b482;
+
+    text-align: center;
+
+    padding: 10px 0;
+}
+
+
+
+
